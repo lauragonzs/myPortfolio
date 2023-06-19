@@ -1,74 +1,77 @@
 header {
-    background-color: #1abc9c;
-    padding: 10px 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-    color: #ffcc00;
-  }
-  
-  
-  .toggle-menu {
-    cursor: pointer;
-    filter: invert(1);
-    margin-left: auto;
-    transition: filter 0.3s ease;
-  }
+  background-color: #1abc9c;
+  padding: 10px 0;
+  font-family: Arial, sans-serif;
+}
 
-  .socialMedia {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    padding-left: 1em;
-    filter: invert(1);
-  }
-  
-  .socialMedia a {
-    margin-left: 1em;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffcc00;
+}
+
+
+.toggle-menu {
+  cursor: pointer;
+  filter: invert(1);
+  margin-left: auto;
+  transition: filter 0.3s ease;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-left: 1em;
+  filter: invert(1);
+}
+
+.socialMedia a {
+  margin-left: 1em;
+}
+
+.main-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .toggle-menu {
+    display: none;
   }
 
   .main-menu {
-    list-style: none;
+    flex-direction: row;
+  }
+
+  nav {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    margin-right: 2em;
   }
-  
-  @media screen and (min-width: 768px) {
-    .toggle-menu {
-      display: none;
-    }
-    .main-menu {
-      flex-direction: row;
-    }
-    nav {
-      display: flex;
-      flex-direction: row;
-      margin-right: 2em;
-    }
-    .container {
-      margin-left: 2em;
-    }
+
+  .container {
+    margin-left: 2em;
   }
-  
-  .main-menu_item {
-    padding: 1em;
-  }
+}
+
+.main-menu_item {
+  padding: 1em;
+}

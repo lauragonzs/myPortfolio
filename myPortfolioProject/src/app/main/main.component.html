@@ -1,96 +1,74 @@
 <section class="portfolio">
-    <div class="container">
-        
-      <h1 class="main-title">Laura González</h1>
-      <h1 class="text-primary">Computer Science Student at ULPGC</h1>
+  <div class="container">
 
-    
-      <div class="section about-me">
-        <h3>About Me</h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-            autem deleniti cupiditate molestias quis unde quae totam porro dicta
-            iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
-          </p>
-      </div>
+    <h1 class="main-title">Laura González</h1>
+    <h1 class="text-primary">Computer Engineering Student</h1>
 
 
-    <section class="carousel">
-      <h2 class="categories__title">My Skills</h2>
-      <div class="carousel__container">
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="../../assets/java.jpeg"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <div class="controls">
-              <span class="fas fa-play-circle"></span>
-              <span class="fas fa-plus-circle"></span>
-            </div>
-            <h5 class="carousel-item__details--title">Descriptive Title</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
+    <div class="section about-me">
+      <h3>About Me</h3>
+      <p>Welcome to my website. I am Laura González, a third-year student pursuing a degree in Computer Engineering,
+        with expectations of graduating in 2024.
+        <br><br>
+        Throughout my academic journey, I have actively engaged in numerous projects, enabling me to cultivate essential
+        skills in teamwork, communication, and adaptability. I firmly believe in the significance of collaborating with
+        diverse individuals and leveraging a variety of perspectives to generate innovative solutions.
+        <br><br>
+        My education has equipped me with a comprehensive understanding of web and mobile development, encompassing
+        languages such as HTML, CSS, JavaScript, and prominent frameworks like Angular.
+        <br><br>
+        In addition to my computer engineering training, I concurrently pursued the International Baccalaureate and the
+        Spanish Scientific Baccalaureate at Heidelberg College. This multifaceted experience has honed my ability to
+        adapt to diverse environments and educational approaches.
+        <br><br>
+        As a student, my aspiration is to continually evolve professionally and embrace fresh challenges that come my
+        way.
+      </p>
+    </div>
+    <div class="section about-me">
+      <h3>Programming Languages</h3>
+      <div class="slider">
+        <div class="slide-track">
+          <app-carousel-item class="slide" *ngFor="let skill of skills" [img]="skill">
+          </app-carousel-item>
         </div>
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/1785001/pexels-photo-1785001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <div class="controls">
-              <span class="fas fa-play-circle"></span>
-              <span class="fas fa-plus-circle"></span>
-            </div>
-            <h5 class="carousel-item__details--title">Descriptive Title</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <div class="controls">
-              <span class="fas fa-play-circle"></span>
-              <span class="fas fa-plus-circle"></span>
-            </div>
-            <h5 class="carousel-item__details--title">Descriptive Title</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-        
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/1964471/pexels-photo-1964471.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <div class="controls">
-              <span class="fas fa-play-circle"></span>
-              <span class="fas fa-plus-circle"></span>
-            </div>
-            <h5 class="carousel-item__details--title">Descriptive Title</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    
-      <div class="section">
-        <h3>Idiomas</h3>
-        <ul class="list-unstyled">
-          <li>Inglés</li>
-          <li>Español</li>
-          <li>Alemán</li>
-        </ul>
       </div>
     </div>
-  </section>
+
+    <div class="section">
+      <h3>Languages I speak</h3>
+      <div class="language-selector">
+        <div class="language-item">
+          <div class="language-circle">
+            <img src="../../assets/spain.jpg" alt="Bandera 1">
+            <div class="language-overlay">
+              <span class="language-text">Native</span>
+            </div>
+          </div>
+          <div class="language-description">Español</div>
+          <div class="language-description">Native</div>
+        </div>
+        <div class="language-item">
+          <div class="language-circle">
+            <img src="../../assets/uk.jpg" alt="Bandera 2">
+            <div class="language-overlay">
+              <span class="language-text">C1</span>
+            </div>
+          </div>
+          <div class="language-description">English</div>
+          <div class="language-description">C1</div>
+        </div>
+        <div class="language-item">
+          <div class="language-circle">
+            <img src="../../assets/deutsch.jpg" alt="Bandera 3">
+            <div class="language-overlay">
+              <span class="language-text">C1</span>
+            </div>
+          </div>
+          <div class="language-description">Deutsch</div>
+          <div class="language-description">C1</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

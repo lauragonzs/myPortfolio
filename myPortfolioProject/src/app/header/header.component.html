@@ -1,7 +1,7 @@
 <header>
     <nav>
         <div class="container">
-            <a href="/">
+            <a [routerLink]="['/main']">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" class="bi bi-house-fill"
                     viewBox="0 0 16 16">
                     <path
@@ -37,7 +37,7 @@
 
             <ul id="main-menu" class="main-menu" [ngStyle]="!aparece ? { 'display': 'none'} : null">
                 <li class="main-menu_item">
-                    <a href="#">Projects</a>
+                    <a  [routerLink]="['/myProjects']">myProjects</a>
                 </li>
                 <li class="main-menu_item">
                     <a href="#">Contact</a>

@@ -1,0 +1,65 @@
+/* Estilos de títulos */
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+h1 {
+    color: #1abc9c;
+    font-family: 'Righteous';
+    font-size: 4em;
+    font-weight: bold;
+    margin: 1em;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'Righteous';
+    
+  }
+
+.project-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-bottom: 1em;
+  }
+  
+  .project-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .project-link {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .project-image {
+    display: block;
+    width: 30em;
+    transition: transform 0.3s;
+  }
+  
+  .project-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .project-info {
+    margin-left: 20px;
+  }
+  
+  .project-info h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .project-info p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+
+  
+  

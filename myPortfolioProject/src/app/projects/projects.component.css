@@ -49,20 +49,23 @@ h1 {
 
   .carousel-item img {
     width: 300px !important;
-    height: 400px !important;
   }
 
   .java {
-    width: 500px;
+    width: 250px;
   }
 
   @media screen and (min-width: 485px) {
     .carousel-item img {
       width: 400px !important;
-      height: 500px !important;
     }
+
     h1 {
       font-size: 4em;
+    }
+
+    .java {
+      width: 500px;
     }
 
   }
@@ -70,7 +73,6 @@ h1 {
   @media screen and (min-width: 1024px) {
     .carousel-item img {
       width: 500px !important;
-      height: 600px !important;
     }
 
     .project-content{

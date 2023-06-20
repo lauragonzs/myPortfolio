@@ -1,0 +1,72 @@
+<h1>About Me</h1>
+<section class="portfolio">
+  <div class="container">
+    <div class="section about-me">
+      <h3>Programming Skills</h3>
+      <div class="slider">
+        <div class="slide-track">
+          <app-carousel-item class="slide" *ngFor="let skill of skills" [img]="skill">
+          </app-carousel-item>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Languages I speak</h3>
+      <div class="language-selector">
+        <div class="language-item">
+          <div class="language-circle">
+            <img src="../../assets/spain.jpg" alt="Bandera 1">
+            <div class="language-overlay">
+              <span class="language-text">Native</span>
+            </div>
+          </div>
+          <div class="language-description">Español</div>
+          <div class="language-description">Native</div>
+        </div>
+        <div class="language-item">
+          <div class="language-circle">
+            <img src="../../assets/uk.jpg" alt="Bandera 2">
+            <div class="language-overlay">
+              <span class="language-text">C1</span>
+            </div>
+          </div>
+          <div class="language-description">English</div>
+          <div class="language-description">C1</div>
+        </div>
+        <div class="language-item">
+          <div class="language-circle">
+            <img src="../../assets/deutsch.jpg" alt="Bandera 3">
+            <div class="language-overlay">
+              <span class="language-text">C1</span>
+            </div>
+          </div>
+          <div class="language-description">Deutsch</div>
+          <div class="language-description">C1</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section about-me">
+      <h3>Who am I</h3>
+      <p>Welcome to my website. I am Laura González, a third-year student pursuing a degree in Computer Engineering,
+        with expectations of graduating in 2024.
+        <br><br>
+        Throughout my academic journey, I have actively engaged in numerous projects, enabling me to cultivate essential
+        skills in teamwork, communication, and adaptability. I firmly believe in the significance of collaborating with
+        diverse individuals and leveraging a variety of perspectives to generate innovative solutions.
+        <br><br>
+        My education has equipped me with a comprehensive understanding of web and mobile development, encompassing
+        languages such as HTML, CSS, JavaScript, and prominent frameworks like Angular.
+        <br><br>
+        In addition to my computer engineering training, I concurrently pursued the International Baccalaureate and the
+        Spanish Scientific Baccalaureate at Heidelberg College. This multifaceted experience has honed my ability to
+        adapt to diverse environments and educational approaches.
+        <br><br>
+        As a student, my aspiration is to continually evolve professionally and embrace fresh challenges that come my
+        way.
+      </p>
+    </div>
+
+  </div>
+</section>

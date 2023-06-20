@@ -33,16 +33,16 @@
             </div>
         </div>
 
-        <nav class="main-nav">
-
-            <ul id="main-menu" class="main-menu" [ngStyle]="!aparece ? { 'display': 'none'} : null">
-                <li class="main-menu_item">
-                    <a  [routerLink]="['/myProjects']">myProjects</a>
-                </li>
-                <li class="main-menu_item">
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <ul id="main-menu" class="main-menu" [ngStyle]="!aparece ? { 'display': 'none'} : null">
+            <li class="main-menu_item">
+                <a [routerLink]="['/aboutMe']">aboutMe</a>
+            </li>
+            <li class="main-menu_item">
+                <a [routerLink]="['/myProjects']">myProjects</a>
+            </li>
+            <li class="main-menu_item">
+                <a [routerLink]="['/contact']">Contact</a>
+            </li>
+        </ul>
     </nav>
 </header>

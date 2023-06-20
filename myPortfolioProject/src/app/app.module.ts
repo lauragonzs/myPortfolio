@@ -7,6 +7,8 @@ import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './header/header.component';
 import { CarouselItemComponent } from './carousel-item/carousel-item.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ProjectsComponent } from './projects/projects.component';
     MainComponent,
     HeaderComponent,
     CarouselItemComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,

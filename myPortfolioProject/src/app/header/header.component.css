@@ -5,12 +5,11 @@ header {
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
 }
 
 nav a {
@@ -35,9 +34,8 @@ nav a:hover {
 
 .socialMedia {
   display: flex;
-  align-items: center;
-  margin-left: auto;
-  padding-left: 1em;
+  align-items: right;
+  margin-right: 0;
   filter: invert(1);
 }
 
@@ -50,9 +48,16 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 
-@media screen and (min-width: 768px) {
+.main-menu_item {
+  padding-right: 1em;
+  padding-top: 1em;
+}
+
+@media screen and (min-width: 550px) {
   .toggle-menu {
     display: none;
   }
@@ -70,8 +75,10 @@ nav a:hover {
   .container {
     margin-left: 2em;
   }
+
+  .socialMedia{
+    margin-left: auto;
+    margin-right: 0;
+  }
 }
 
-.main-menu_item {
-  padding: 1em;
-}

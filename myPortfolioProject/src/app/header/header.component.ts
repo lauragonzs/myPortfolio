@@ -22,6 +22,6 @@ export class HeaderComponent {
     }
   
     verificarAnchoPantalla() {
-      this.aparece = window.innerWidth > 768;
+      this.aparece = window.innerWidth > 550;
     }
 }

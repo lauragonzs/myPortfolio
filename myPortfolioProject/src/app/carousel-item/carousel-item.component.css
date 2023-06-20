@@ -1,3 +1,15 @@
 .slide img{
     border-radius: 10%;
+    width: 150px;
+    height: 120px;
 }
+
+.slide{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    display:inline;
+}
+

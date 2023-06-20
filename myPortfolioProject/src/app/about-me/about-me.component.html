@@ -1,16 +1,16 @@
 <h1>About Me</h1>
 <section class="portfolio">
-  <div class="container">
-    <div class="section about-me">
-      <h3>Programming Skills</h3>
-      <div class="slider">
-        <div class="slide-track">
-          <app-carousel-item class="slide" *ngFor="let skill of skills" [img]="skill">
-          </app-carousel-item>
-        </div>
+  <div class="section about-me">
+    <h3>Programming Skills</h3>
+    <div class="slider">
+      <div class="slide-track">
+        <app-carousel-item class="slide" *ngFor="let skill of skills" [img]="skill.image" [title]="skill.title">
+        </app-carousel-item>
       </div>
     </div>
+  </div>
 
+  <div class="container">
     <div class="section">
       <h3>Languages I speak</h3>
       <div class="language-selector">

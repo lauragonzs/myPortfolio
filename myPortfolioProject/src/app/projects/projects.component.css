@@ -52,6 +52,10 @@ h1 {
     height: 400px !important;
   }
 
+  .java {
+    width: 500px;
+  }
+
   @media screen and (min-width: 485px) {
     .carousel-item img {
       width: 400px !important;

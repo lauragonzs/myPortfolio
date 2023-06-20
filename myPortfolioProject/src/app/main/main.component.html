@@ -1,9 +1,8 @@
 <section class="sect">
-  <video id="myVideo" autoplay="true" muted="true" loop="true">
+  <video loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true">
     <source src="../../assets/background.mp4" type="video/mp4">
   </video>
   <h1 class="main-title">Laura González</h1>
   <h1 class="text-primary">Computer Engineering Student</h1>
   <a [routerLink]="['/contact']" class="button">Contact me!</a>
 </section>
-

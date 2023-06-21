@@ -1,23 +1,24 @@
 <h1>My Projects</h1>
-
+<div class="projects">
+  
 <section class="project-section">
   <div class="project-content">
     <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../../assets/estetica1.jpg" class="d-block w-100" alt="...">
+          <img src="../../assets/estetica1.jpg" class="d-block w-100 img1" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="../../assets/estetica2.jpg" class="d-block w-100" alt="...">
+          <img src="../../assets/estetica2.jpg" class="d-block w-100 img1" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="../../assets/estetica3.jpg" class="d-block w-100" alt="...">
+          <img src="../../assets/estetica3.jpg" class="d-block w-100 img1" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="../../assets/estetica4.jpg" class="d-block w-100" alt="...">
+          <img src="../../assets/estetica4.jpg" class="d-block w-100 img1" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="../../assets/estetica5.jpg" class="d-block w-100" alt="...">
+          <img src="../../assets/estetica5.jpg" class="d-block w-100 img1" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
@@ -34,7 +35,8 @@
       <a href="https://github.com/lauragonzs/Proyecto_Clinica_Estetica.git" class="project-link">
         <h2>Medical Aesthetics Clinic Webpage</h2>
       </a>
-      <p class="project-description">
+      <button (click)="toggleDescription(1)">More information</button>
+      <p class="project-description" [hidden]="!showDescription1">
         The goal of this project was to create a visually appealing and easy-to-use platform that allows the clients of
         an aesthetic clinic to explore treatments and promotions, easily contact the clinic and access their
         personalized profile. The website was designed to be responsive, providing an optimal experience on mobile and
@@ -103,7 +105,8 @@
       <a href="https://github.com/lauragonzs/ServicioBibliotecaOnline.git" class="project-link">
         <h2>Librarium</h2>
       </a>
-      <p class="project-description">
+      <button (click)="toggleDescription(2)">More information</button>
+      <p class="project-description" [hidden]="!showDescription2">
         Librarium is an innovative website that offers a subscription-based online library service, giving subscribed
         users the opportunity to access a wide variety of books digitally.
         <br><br>
@@ -162,7 +165,8 @@
       <a href="https://github.com/lauragonzs/NeuralNetwork-TomatoLeaves.git" class="project-link">
         <h2>Neural Network</h2>
       </a>
-      <p class="project-description">
+      <button (click)="toggleDescription(3)">More information</button>
+      <p class="project-description" [hidden]="!showDescription3">
         In this project, I have designed a training system using a neural network to identify different diseases in
         tomato leaves. To achieve this, I have used two key tools: TensorFlow for the creation and training of the
         neural networks, and the VGG16 architecture.
@@ -191,14 +195,15 @@
 
 <section class="project-section">
   <div class="project-content">
-    <video class="java" controls loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true">
+    <video class="java" controls loop muted onloadedmetadata="this.muted = true">
       <source src="../../assets/ImageViewer.mp4" type="video/mp4">
     </video>
     <div class="project-info">
       <a href="https://github.com/lauragonzs/ImageViewer.git" class="project-link">
         <h2>Image Viewer</h2>
       </a>
-      <p class="project-description">
+      <button (click)="toggleDescription(4)">More information</button>
+      <p class="project-description" [hidden]="!showDescription4">
         The Image Viewer project is a Java-based desktop application that functions as an image carousel. Users can
         navigate through a collection of images using scroll arrows or by directly dragging the images with the mouse.
         <br><br>
@@ -227,7 +232,8 @@
       <a href="https://github.com/lauragonzs/BlackJack-TDD" class="project-link">
         <h2>BlackJack TDD</h2>
       </a>
-      <p class="project-description">
+      <button (click)="toggleDescription(5)">More information</button>
+      <p class="project-description" [hidden]="!showDescription5">
         The "Blackjack Game" desktop application implements the game of blackjack using the Test-Driven Development
         (TDD) methodology in Java.
         <br><br>
@@ -246,14 +252,15 @@
 
 <section class="project-section">
   <div class="project-content">
-    <video class="java" controls loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true">
+    <video class="java" controls loop muted onloadedmetadata="this.muted = true">
       <source src="../../assets/MoneyCalculator.mp4" type="video/mp4">
     </video>
     <div class="project-info">
       <a href="https://github.com/lauragonzs/MoneyCalculator.git" class="project-link">
         <h2>Money Calculator</h2>
       </a>
-      <p class="project-description">
+      <button (click)="toggleDescription(6)">More information</button>
+      <p class="project-description" [hidden]="!showDescription6">
         The MoneyCalculator project is a Java-based desktop application that serves as a currency exchange calculator.
         It allows users to calculate exchange rates between different currencies using their respective currencies.
         <br><br>
@@ -277,3 +284,5 @@
     </div>
   </div>
 </section>
+
+</div>

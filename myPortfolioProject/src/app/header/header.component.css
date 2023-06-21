@@ -57,6 +57,10 @@ nav a:hover {
   padding-top: 1em;
 }
 
+.logo {
+  width: 32px;
+}
+
 @media screen and (min-width: 550px) {
   .toggle-menu {
     display: none;

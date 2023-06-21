@@ -25,7 +25,12 @@ h1.text-primary {
 .sect {
   width: 100%;
   text-align: center;
-  padding-top: 4em;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5em;
 }
 
 .sect .button {
@@ -36,6 +41,7 @@ h1.text-primary {
   padding: 10px 20px;
   border-radius: 10px;
   margin-top: 20px;
+  width: 10em;
 }
 
 .sect .button:hover {
@@ -56,73 +62,22 @@ video {
 @media screen and (min-width: 600px) {
   .main-title {
     font-size: 5em;
-    padding: 0;
   }
 
   h1.text-primary {
     font-size: 2.5em;
     margin-bottom: 1em;
   }
-
-  .sect {
-    padding: 6em;
-  }
-
 }
 
 @media screen and (min-width: 880px) {
   .main-title {
     font-size: 6em;
-    margin: 0;
-    padding-top: 1em;
-  }
-  .sect {
-    padding: 8em;
   }
 }
 
 @media screen and (min-width: 1230px) {
   .main-title {
     font-size: 8em;
-    padding: 0;
-    padding-top: 1.5em;
-  }
-}
-
-@keyframes move {
-  0% {
-    text-shadow:
-      4px -4px 0 rgb(255, 136, 0),
-      3px -3px 0 rgb(255, 136, 0),
-      2px -2px 0 rgb(255, 136, 0),
-      1px -1px 0 rgb(255, 136, 0),
-      -4px 4px 0 hsla(180, 100%, 50%, 1),
-      -3px 3px 0 hsla(180, 100%, 50%, 1),
-      -2px 2px 0 hsla(180, 100%, 50%, 1),
-      -1px 1px 0 hsla(180, 100%, 50%, 1);
-  }
-
-  50% {
-    text-shadow:
-      -4px 4px 0 rgb(255, 136, 0),
-      -3px 3px 0 rgb(255, 136, 0),
-      -2px 2px 0 rgb(255, 136, 0),
-      -1px 1px 0 rgb(255, 136, 0),
-      4px -4px 0 hsla(180, 100%, 50%, 1),
-      3px -3px 0 hsla(180, 100%, 50%, 1),
-      2px -2px 0 hsla(180, 100%, 50%, 1),
-      1px -1px 0 hsla(180, 100%, 50%, 1);
-  }
-
-  100% {
-    text-shadow:
-      4px -4px 0 rgb(255, 136, 0),
-      3px -3px 0 rgb(255, 136, 0),
-      2px -2px 0 rgb(255, 136, 0),
-      1px -1px 0 rgb(255, 136, 0),
-      -4px 4px 0 hsla(180, 100%, 50%, 1),
-      -3px 3px 0 hsla(180, 100%, 50%, 1),
-      -2px 2px 0 hsla(180, 100%, 50%, 1),
-      -1px 1px 0 hsla(180, 100%, 50%, 1);
   }
 }

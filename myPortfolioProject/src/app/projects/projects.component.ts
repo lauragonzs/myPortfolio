@@ -27,10 +27,10 @@ export class ProjectsComponent {
       this.showDescription4 = !this.showDescription4;
     }
     else if (item == 5){
-      this.showDescription4 = !this.showDescription4;
+      this.showDescription5 = !this.showDescription5;
     }
     else if (item == 6){
-      this.showDescription4 = !this.showDescription4;
+      this.showDescription6 = !this.showDescription6;
     }
   }
 }

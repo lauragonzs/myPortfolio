@@ -1,0 +1,66 @@
+{
+    "header": {
+        "en": "English",
+        "es": "Spanish",
+        "language": "Language",
+        "aboutMe": "About me",
+        "myProjects": "My Projects",
+        "contact": "Contact"
+    },
+    "main": {
+        "student": "Computer Engineering Student",
+        "contact": "Contact me!"
+    },
+    "aboutMe": {
+        "skills": "Programming Skills",
+        "languages": "Languages I speak",
+        "native": "Native",
+        "whoAmI": "Who am I",
+        "myDescription1": "Welcome to my website. I am Laura González, a third-year student pursuing a degree in Computer Engineering, with expectations of graduating in 2024.",
+        "myDescription2": "Throughout my academic journey, I have actively engaged in numerous projects, enabling me to cultivate essential skills in teamwork, communication, and adaptability. I firmly believe in the significance of collaborating with diverse individuals and leveraging a variety of perspectives to generate innovative solutions.",
+        "myDescription3": "I have received a solid education in web and mobile development, equipping me with a strong understanding of languages such as HTML, CSS, JavaScript, and experience with frameworks like Angular and Ionic. Additionally, I have a keen interest in cloud computing and how it is transforming the way businesses operate and store data.",
+        "myDescription4": "In addition to my computer engineering training, I graduated from the International Baccalaureate and the Spanish Scientific Baccalaureate at Heidelberg Schule simultaneusly. This diverse educational background has not only enhanced my adaptability to different environments and educational approaches, but also allowed me to focus on developing proficiency in languages such as English and German. This linguistic component of my education complements my technical knowledge, enabling me to effectively collaborate and communicate in international settings.",
+        "myDescription5": "As a student, my goal is to constantly grow and develop both personally and professionally. I have a strong desire to embrace new challenges and expand my horizons."
+    },
+    "contact": {
+        "location": "Location",
+        "country": "Spain"
+    },
+    "myProjects": {
+        "moreInfo": "More Information",
+        "medicalAestheticsTitle": "Medical Aesthetics Clinic Webpage",
+        "medicalAesthetics1": "The goal of this project was to create a visually appealing and easy-to-use platform that allows the clients of an aesthetic clinic to explore treatments and promotions, easily contact the clinic and access their personalized profile. The website was designed to be responsive, providing an optimal experience on mobile and tablet devices.",
+        "medicalAesthetics2": "To bring this project to life, I used a combination of HTML, CSS, and JavaScript in the early stages. These technologies allowed me to build the core functionalities of the website, ensuring smooth navigation, form submission, and user authentication. Data storage and authentication were handled using Firebase. The design phase was made easier by the use of Figma, a powerful design tool that helped me create aesthetically pleasing interfaces. I selected a color palette with the help of an artificial intelligence, ensuring a consistent and visually appealing appearance throughout the website.",
+        "medicalAesthetics3": "To manage the project efficiently, I used Trello. This allowed me to organize tasks, track progress, and collaborate effectively with the team. Through the use of agile methodologies and task prioritization, I ensured a smooth and timely development process.",
+        "medicalAesthetics4": "As the project progressed, I recognized the need for a more robust and scalable framework. Consequently, I migrated the website to the Angular framework. This transition provided improved performance and maintainability, ensuring future scalability.",
+        "medicalAesthetics5": "The final result was an aesthetically pleasing and functional website where clients could explore treatments, easily contact the clinic through intuitive forms, and access personalized profiles. They could also take advantage of promotions and refer to the Frequently Asked Questions section (FAQ).",
+        "librarium1": "Librarium is an innovative website that offers a subscription-based online library service, giving subscribed users the opportunity to access a wide variety of books digitally.",
+        "librarium2": "To carry out this project, I used Angular Framework and Firebase, in order to manage user authentication and store the database in the cloud.",
+        "librarium3": "The website has a wide number of outstanding features. Firstly, a book details section has been developed, where users can get detailed information about each work. In addition, a book reading page has been implemented, allowing users to change the language and enjoy a personalized reading experience. The page also has a reviews section, where users can share their opinions and comments about the books.",
+        "librarium4": "In order to facilitate the search for books, an advanced search section has been incorporated, which allows users to filter by title, author or category. An audiobook section has also been included, giving users the option to enjoy audio narrations. The user profiles are a fundamental part of the page, since they allow each user to have a personalized follow-up of their favourites, read and pending books.",
+        "librarium5": "In addition, an administrator panel has been developed that provides additional functionalities. The admin can perform a full CRUD (Create, Read, Update, Delete) of users and books, as well as remove inappropriate reviews. This guarantees efficient and safe control of the platform.",
+        "librarium6": "In terms of design, special attention has been paid to the user experience. The website offers the option of light mode and dark mode, adapting to the individual preferences of each user. In addition, we have used an API to offer the option to switch the language between English and Spanish, with the aim of obtaining more users.",
+        "librarium7": "To ensure a smooth and secure subscription experience, we have used a fee payment API, allowing users to manage their membership easily and securely.",
+        "librarium8": "The website is complete and offers a wide range of functionalities that provide reading-loving users with an enriching and satisfying experience, being more than a viable production-ready minimum.",
+        "neuralNetworkTitle": "Neural Network",
+        "neuralNetwork1": "In this project, I have designed a training system using a neural network to identify different diseases in tomato leaves. To achieve this, I have used two key tools: TensorFlow for the creation and training of the neural networks, and the VGG16 architecture.",
+        "neuralNetwork2": "The model has been trained using a comprehensive collection of photographs of tomato leaves affected by various diseases.",
+        "neuralNetwork3": "The obtained result has been a model accuracy of 0.9539. This means that the model is capable of correctly classifying diseases in a high percentage of cases, demonstrating its effectiveness and usefulness in diagnosing tomato leaf diseases.",
+        "neuralNetwork4": "In addition to training the neural network, a graph has been designed to display the model's accuracy over time. This graph is used for visualizing and analyzing the improvement of the model as the training progresses.",
+        "neuralNetwork5": "Furthermore, a confusion matrix has been created, which is a useful tool for evaluating the performance of a classification model. This matrix displays the frequency at which the model correctly or incorrectly classifies each disease class in tomato leaves, providing valuable information for adjusting and improving the model in future iterations.",
+        "neuralNetwork6": "The resulting model has achieved a high accuracy in identifying diseases in tomato leaves, demonstrating its potential application in early detection and control of diseases in agricultural crops.",
+        "imageViewer1": "The Image Viewer project is a Java-based desktop application that functions as an image carousel. Users can navigate through a collection of images using scroll arrows or by directly dragging the images with the mouse.",
+        "imageViewer2": "To ensure a well-structured design, the Model-View-Presenter (MVP) architectural pattern was implemented. The View handles the display of the user interface, including the carousel interface and image area, while receiving user input.",
+        "imageViewer3": "The Presenter acts as the intermediary between the Model and the View. It receives user input from the View, interacts with the Model to retrieve relevant images, and updates the View accordingly. It also manages the logic for arrow-based scrolling and mouse interaction, ensuring the proper display of images based on user actions.",
+        "imageViewer4": "By utilizing the MVP pattern, the application achieves a clear separation of responsibilities, simplifying maintenance. The collaboration between the Model, View, and Presenter creates an intuitive and user-friendly image carousel experience, allowing seamless navigation through images using scroll arrows or direct mouse interaction.",
+        "blackjack1": "The 'Blackjack Game' desktop application implements the game of blackjack using the Test-Driven Development (TDD) methodology in Java.",
+        "blackjack2": "The development of the application follows the TDD approach, which involves writing tests before implementing the functionality. Tests are created to define the expected behavior of different game components, such as the deck of cards, scoring rules, and player actions.",
+        "blackjack3": "With each test, the necessary code is implemented to make it pass. This ensures that the functionality is developed incrementally and that the established requirements are always met. This approach also guarantees a high level of test coverage, promoting code robustness and maintainability. It enables the application to easily grow and adapt in the future.",
+        "moneyCalculator1": "The MoneyCalculator project is a Java-based desktop application that serves as a currency exchange calculator. It allows users to calculate exchange rates between different currencies using their respective currencies.",
+        "moneyCalculator2": "To design the application, the Model-View-Controller (MVC) architectural pattern has been employed. The Model represents the data and logic of the application, including currency information and exchange rate calculations.",
+        "moneyCalculator3": "The View is responsible for displaying the user interface elements, such as input fields for selecting currencies and displaying the calculated exchange rates.",
+        "moneyCalculator4": "The Controller acts as the intermediary between the Model and the View. It handles user input, communicates with the Model to perform currency calculations, and updates the View accordingly.",
+        "moneyCalculator5": "By implementing the MVC pattern, the application achieves a clear separation of concerns, making it easier to maintain and modify. The Model handles currency data and calculations, the View handles user interface rendering, and the Controller manages the interactions between them.",
+        "moneyCalculator6": "Overall, the MoneyCalculator application provides a user-friendly interface for calculating exchange rates between different currencies, utilizing the MVC architecture to ensure a well-structured and maintainable design."
+    }
+}

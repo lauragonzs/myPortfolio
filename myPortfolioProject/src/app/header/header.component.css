@@ -35,7 +35,6 @@ nav a:hover {
 .socialMedia {
   display: flex;
   align-items: right;
-  margin-right: 0;
   filter: invert(1);
 }
 
@@ -55,13 +54,21 @@ nav a:hover {
 .main-menu_item {
   padding-right: 1em;
   padding-top: 1em;
+  width: max-content;
 }
 
 .logo {
   width: 32px;
 }
+.dropdown .btn {
+  background-color: #1abc9c !important;
+  border: #1abc9c;
+}
+.dropdown-menu a {
+  color: #1abc9c;
+}
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 650px) {
   .toggle-menu {
     display: none;
   }
@@ -85,4 +92,3 @@ nav a:hover {
     margin-right: 0;
   }
 }
-

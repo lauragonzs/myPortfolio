@@ -1,4 +1,5 @@
 import { Component, HostListener } from '@angular/core';
+import { TranslocoService } from '@ngneat/transloco';
 
 @Component({
   selector: 'app-header',
@@ -12,7 +13,7 @@ export class HeaderComponent {
       this.aparece = !this.aparece
     }
 
-    constructor() {
+    constructor(private translocoService: TranslocoService) {
       this.verificarAnchoPantalla();
     }
   
@@ -22,6 +23,10 @@ export class HeaderComponent {
     }
   
     verificarAnchoPantalla() {
-      this.aparece = window.innerWidth > 550;
+      this.aparece = window.innerWidth > 650;
+    }
+
+    changeLanguage(lang: string) {
+      this.translocoService.setActiveLang(lang);
     }
 }

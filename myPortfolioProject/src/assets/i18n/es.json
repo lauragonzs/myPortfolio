@@ -1,0 +1,67 @@
+{
+    "header": {
+        "en": "Inglés",
+        "es": "Español",
+        "language": "Idioma",
+        "aboutMe": "Acerca de mí",
+        "myProjects": "Mis Proyectos",
+        "contact": "Contáctame"
+    },
+    "main": {
+        "student": "Estudiante de Ingeniería Informática",
+        "contact": "Contáctame!"
+    },
+    "aboutMe": {
+        "skills": "Habilidades de Programación",
+        "languages": "Idiomas",
+        "native": "Nativo",
+        "whoAmI": "Quién soy",
+        "myDescription": "",
+        "myDescription1": "Bienvenido/a a mi sitio web. Soy Laura González, una estudiante de tercer año que cursa la carrera de Ingeniería Informática, con expectativas de graduarme en 2024.",
+        "myDescription2": "A lo largo de mi trayectoria académica, he participado activamente en numerosos proyectos, lo que me ha permitido cultivar habilidades esenciales en trabajo en equipo, comunicación y adaptabilidad. Creo firmemente en la importancia de colaborar con personas diversas y aprovechar una variedad de perspectivas para generar soluciones innovadoras.",
+        "myDescription3": "He recibido una sólida formación en desarrollo web y móvil, lo que me ha proporcionado un sólido conocimiento de lenguajes como HTML, CSS, JavaScript y experiencia con frameworks como Angular e Ionic. Además, tengo un gran interés en la computación en la nube y en cómo está transformando la forma en que las empresas operan y almacenan datos.",
+        "myDescription4": "Además de mi formación en ingeniería informática, me gradué simultáneamente del Bachillerato Internacional y el Bachillerato Científico Español en el Colegio Heidelberg. Esta diversa formación educativa no solo ha mejorado mi capacidad de adaptación a diferentes entornos y enfoques educativos, sino que también me ha permitido centrarme en desarrollar competencias en idiomas, como inglés y alemán. Este componente lingüístico de mi educación complementa mi conocimiento técnico, lo que me permite colaborar y comunicarme de manera efectiva en entornos internacionales.",
+        "myDescription5": "Como estudiante, mi objetivo es crecer y desarrollarme constantemente tanto a nivel personal como profesional. Tengo un fuerte deseo de aceptar nuevos desafíos y ampliar mis horizontes."
+    },
+    "contact": {
+        "location": "Localización",
+        "country": "España"
+    },
+    "myProjects": {
+        "moreInfo": "Más Información",
+        "medicalAestheticsTitle": "Web de Clínica de Estética Médica",
+        "medicalAesthetics1": "El objetivo de este proyecto fue crear una plataforma visualmente atractiva y fácil de usar que permita a los clientes de una clínica estética explorar tratamientos y promociones, contactar fácilmente con la clínica y acceder a su perfil personalizado. El sitio web fue diseñado para ser receptivo, brindando una experiencia óptima en dispositivos móviles y tabletas.",
+        "medicalAesthetics2": "Para dar vida a este proyecto, utilicé una combinación de HTML, CSS y JavaScript en las etapas iniciales. Estas tecnologías me permitieron construir las funcionalidades principales del sitio web, asegurando una navegación fluida, envío de formularios y autenticación de usuarios. El almacenamiento de datos y la autenticación se gestionaron utilizando Firebase. La fase de diseño se facilitó mediante el uso de Figma, una potente herramienta de diseño que me ayudó a crear interfaces estéticamente agradables. Seleccioné una paleta de colores con la ayuda de una inteligencia artificial, asegurando una apariencia consistente y visualmente atractiva en todo el sitio web.",
+        "medicalAesthetics3": "Para gestionar el proyecto de manera eficiente, utilicé Trello. Esto me permitió organizar tareas, realizar un seguimiento del progreso y colaborar de manera efectiva con el equipo. A través del uso de metodologías ágiles y priorización de tareas, garanticé un proceso de desarrollo fluido y puntual.",
+        "medicalAesthetics4": "A medida que el proyecto avanzaba, reconocí la necesidad de un marco de trabajo más robusto y escalable. En consecuencia, migré el sitio web al framework Angular. Esta transición proporcionó un rendimiento y mantenibilidad mejorados, asegurando la escalabilidad futura.",
+        "medicalAesthetics5": "El resultado final fue un sitio web estéticamente agradable y funcional donde los clientes podían explorar tratamientos, contactar fácilmente con la clínica a través de formularios intuitivos y acceder a perfiles personalizados. También podían aprovechar promociones y consultar la sección de Preguntas Frecuentes (FAQ).",
+        "librarium1": "Librarium es un sitio web innovador que ofrece un servicio de biblioteca en línea basado en suscripción, brindando a los usuarios suscritos la oportunidad de acceder a una amplia variedad de libros de forma digital.",
+        "librarium2": "Para llevar a cabo este proyecto, utilicé el framework Angular y Firebase, para gestionar la autenticación de usuarios y almacenar la base de datos en la nube.",
+        "librarium3": "El sitio web cuenta con una amplia variedad de características destacadas. En primer lugar, se ha desarrollado una sección de detalles del libro, donde los usuarios pueden obtener información detallada sobre cada obra. Además, se ha implementado una página de lectura de libros, que permite a los usuarios cambiar el idioma y disfrutar de una experiencia de lectura personalizada. La página también cuenta con una sección de reseñas, donde los usuarios pueden compartir sus opiniones y comentarios sobre los libros.",
+        "librarium4": "Con el fin de facilitar la búsqueda de libros, se ha incorporado una sección de búsqueda avanzada, que permite a los usuarios filtrar por título, autor o categoría. También se ha incluido una sección de audiolibros, que ofrece a los usuarios la opción de disfrutar de narraciones de audio. Los perfiles de usuario son una parte fundamental de la página, ya que permiten a cada usuario tener un seguimiento personalizado de sus libros favoritos, leídos y pendientes.",
+        "librarium5": "Además, se ha desarrollado un panel de administrador que proporciona funcionalidades adicionales. El administrador puede realizar un CRUD completo (Crear, Leer, Actualizar, Eliminar) de usuarios y libros, así como eliminar reseñas inapropiadas. Esto garantiza un control eficiente y seguro de la plataforma.",
+        "librarium6": "En cuanto al diseño, se ha prestado especial atención a la experiencia del usuario. El sitio web ofrece la opción de modo claro y modo oscuro, adaptándose a las preferencias individuales de cada usuario. Además, hemos utilizado una API para ofrecer la opción de cambiar el idioma entre inglés y español, con el objetivo de obtener más usuarios.",
+        "librarium7": "Para garantizar una experiencia de suscripción fluida y segura, hemos utilizado una API de pago de tarifas, que permite a los usuarios administrar su membresía de manera fácil y segura.",
+        "librarium8": "El sitio web está completo y ofrece una amplia gama de funcionalidades que brindan a los usuarios amantes de la lectura una experiencia enriquecedora y satisfactoria, siendo más que una producción mínima lista para su implementación.",
+        "neuralNetworkTitle": "Red Neuronal",
+        "neuralNetwork1": "En este proyecto, he diseñado un sistema de entrenamiento utilizando una red neuronal para identificar diferentes enfermedades en hojas de tomate. Para lograr esto, he utilizado dos herramientas clave: TensorFlow para la creación y entrenamiento de las redes neuronales, y la arquitectura VGG16.",
+        "neuralNetwork2": "El modelo ha sido entrenado utilizando una amplia colección de fotografías de hojas de tomate afectadas por diversas enfermedades.",
+        "neuralNetwork3": "El resultado obtenido ha sido una precisión del modelo del 0.9539. Esto significa que el modelo es capaz de clasificar correctamente las enfermedades en un alto porcentaje de casos, demostrando su efectividad y utilidad en el diagnóstico de enfermedades en hojas de tomate.",
+        "neuralNetwork4": "Además de entrenar la red neuronal, se ha diseñado un gráfico para mostrar la precisión del modelo a lo largo del tiempo. Este gráfico se utiliza para visualizar y analizar la mejora del modelo a medida que avanza el entrenamiento.",
+        "neuralNetwork5": "Además, se ha creado una matriz de confusión, que es una herramienta útil para evaluar el rendimiento de un modelo de clasificación. Esta matriz muestra la frecuencia con la que el modelo clasifica correctamente o incorrectamente cada clase de enfermedad en las hojas de tomate, proporcionando información valiosa para ajustar y mejorar el modelo en futuras iteraciones.",
+        "neuralNetwork6": "El modelo resultante ha logrado una alta precisión en la identificación de enfermedades en hojas de tomate, demostrando su aplicación potencial en la detección temprana y el control de enfermedades en cultivos agrícolas.",
+        "imageViewer1": "El proyecto Image Viewer es una aplicación de escritorio basada en Java que funciona como un carrusel de imágenes. Los usuarios pueden navegar a través de una colección de imágenes utilizando flechas de desplazamiento o arrastrando directamente las imágenes con el mouse.",
+        "imageViewer2": "Para garantizar un diseño bien estructurado, se implementó el patrón arquitectónico Modelo-Vista-Presentador (MVP). La Vista se encarga de mostrar la interfaz de usuario, incluyendo la interfaz del carrusel y el área de imágenes, mientras recibe la entrada del usuario.",
+        "imageViewer3": "El Presentador actúa como intermediario entre el Modelo y la Vista. Recibe la entrada del usuario desde la Vista, interactúa con el Modelo para recuperar las imágenes relevantes y actualiza la Vista en consecuencia. También gestiona la lógica para el desplazamiento basado en flechas y la interacción del mouse, asegurando la visualización adecuada de las imágenes según las acciones del usuario.",
+        "imageViewer4": "Al utilizar el patrón MVP, la aplicación logra una clara separación de responsabilidades, simplificando el mantenimiento. La colaboración entre el Modelo, la Vista y el Presentador crea una experiencia intuitiva y amigable para el usuario en el carrusel de imágenes, permitiendo una navegación sin problemas a través de las imágenes utilizando flechas de desplazamiento o interacción directa del mouse.",
+        "blackjack1": "La aplicación de escritorio 'Blackjack Game' implementa el juego de blackjack utilizando la metodología de Desarrollo Guiado por Pruebas (Test-Driven Development, TDD) en Java.",
+        "blackjack2": "El desarrollo de la aplicación sigue el enfoque de TDD, que implica escribir pruebas antes de implementar la funcionalidad. Se crean pruebas para definir el comportamiento esperado de diferentes componentes del juego, como el mazo de cartas, las reglas de puntuación y las acciones de los jugadores.",
+        "blackjack3": "Con cada prueba, se implementa el código necesario para que pase. Esto garantiza que la funcionalidad se desarrolle incrementalmente y que siempre se cumplan los requisitos establecidos. Este enfoque también garantiza un alto nivel de cobertura de pruebas, promoviendo la robustez y mantenibilidad del código. Permite que la aplicación crezca y se adapte fácilmente en el futuro.",
+        "moneyCalculator1": "El proyecto MoneyCalculator es una aplicación de escritorio basada en Java que sirve como calculadora de cambio de divisas. Permite a los usuarios calcular las tasas de cambio entre diferentes monedas utilizando sus respectivos valores de cambio.",
+        "moneyCalculator2": "Para diseñar la aplicación, se ha utilizado el patrón arquitectónico Modelo-Vista-Controlador (MVC). El Modelo representa los datos y la lógica de la aplicación, incluyendo la información de las monedas y los cálculos de tasas de cambio.",
+        "moneyCalculator3": "La Vista se encarga de mostrar los elementos de la interfaz de usuario, como los campos de entrada para seleccionar las monedas y mostrar las tasas de cambio calculadas.",
+        "moneyCalculator4": "El Controlador actúa como intermediario entre el Modelo y la Vista. Maneja la entrada del usuario, se comunica con el Modelo para realizar los cálculos de divisas y actualiza la Vista en consecuencia.",
+        "moneyCalculator5": "Al implementar el patrón MVC, la aplicación logra una clara separación de responsabilidades, facilitando su mantenimiento y modificación. El Modelo maneja los datos y cálculos de divisas, la Vista se encarga de la interfaz de usuario, y el Controlador gestiona las interacciones entre ellos.",
+        "moneyCalculator6": "En general, la aplicación MoneyCalculator proporciona una interfaz fácil de usar para calcular las tasas de cambio entre diferentes monedas, utilizando la arquitectura MVC para garantizar un diseño bien estructurado y fácil de mantener."
+    }
+}

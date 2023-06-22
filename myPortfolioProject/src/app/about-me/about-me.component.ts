@@ -35,9 +35,8 @@ export class AboutMeComponent {
     this.skill("../../assets/C++.jpg", "C++"),
     this.skill("../../assets/r.jpg", "R"),
     this.skill("../../assets/assembly.jpg", "Assembly"),
-    this.skill("../../assets/mySQL.jpg", "mySQL"),
     this.skill("../../assets/sqlite.jpg", "Sqlite"),
-
+    this.skill("../../assets/oracleDatabase.jpg", "Oracle Database")
   ]
 
   skill(image: string, title: string): Skill {
